@@ -88,13 +88,3 @@ img {
 	max-width: 50%;
 }
 
-@media screen and (max-width: 680px) {
-	nav ul li {
-		margin: 1em 0;
-		display: block;
-		font-size: 1em;
-	}
-	body {
-		font-size: 50%;
-	}
-}

@@ -4,17 +4,21 @@ body {
 	margin: 0 auto;
 	background-color: #999;
 	font-size: 62.5%;
+	text-align: center;
 }
 
 header,
+p,
 main,
 footer {
 	background-color: #ddd;
 	font-size: 1.6em;
+	text-align: center;
 }
 
 header {
 	padding: 1.875em 0;
+	text-align: center;
 }
 
 header h1 {

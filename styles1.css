@@ -76,7 +76,6 @@ figcaption {
 
 footer {
 	text-align: center;
-	padding: 3em;
 }
 
 footer p {
@@ -84,7 +83,16 @@ footer p {
 }
 
 img {
-	width: 50%;
-	max-width: 50%;
+	width: 25%;
+	max-width: 25%;
 }
 
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
